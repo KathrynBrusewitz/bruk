@@ -1,15 +1,17 @@
 /* Skeleton Base Styles
 ************************************************** */
-/* NOTE
-html is set to 62.5% so that all the REM measurements throughout Skeleton
-are based on 10px sizing. So basically 1.5rem = 15px :) */
+/** 
+ * NOTE
+ * html is set to 62.5% so that all the REM measurements throughout Skeleton
+ * are based on 10px sizing. So basically 1.5rem = 15px :) 
+ */
 html {
   font-size: 62.5%; }
 body {
   font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
-  line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  line-height: 1;
   color: #222;
   margin: 0;
   padding: 0; }
@@ -20,70 +22,10 @@ p {
 /* Links
 ************************************************** */
 a {
-  color: #fff;
+  color: #444;
   text-decoration: none; }
 a:hover {
-  color: #C9C9C9; }
-
-
-/* Skeleton Buttons
-************************************************** */
-.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
-  cursor: pointer;
-  box-sizing: border-box; }
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
-  color: #333;
-  border-color: #888;
-  outline: 0; }
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
-  color: #FFF;
-  background-color: #33C3F0;
-  border-color: #33C3F0; }
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
-  color: #FFF;
-  background-color: #1EAEDB;
-  border-color: #1EAEDB; }
+  color: #999; }
 
 
 /* Skeleton Utilities
@@ -103,45 +45,54 @@ input[type="button"].button-primary:focus {
 
 /* Custom
 ************************************************** */
-.nav-brand {
+.main {
+  text-align: center;
+  padding: 40px 8px; }
+.main-brand {
+  font-weight: bold;
   text-transform: uppercase;
   font-size: 2.2rem;
-  letter-spacing: .2rem;
-  text-align: center; }
-.button.no-border {
-  border: none; }
-.heading {
-  padding: 4rem 0; }
+  letter-spacing: .2rem; }
+.main-item {
+  color: #444;
+  text-decoration: none;
+  display: inline-block;
+  height: 38px;
+  padding: 13px 30px;
+  color: #555;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  cursor: pointer;
+  box-sizing: border-box; }
+
+.app {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.app-desc {
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .parallax-window {
   box-sizing: border-box;
   padding-top: 20px;
   padding-left: 40px;
-  min-height: 300px;
+  min-height: 250px;
   color: #fff; }
 
-.app-box {
-  text-transform: uppercase;
-  letter-spacing: .2rem; }
-.app-brand {
-  font-size: 2.2rem;
-  font-weight: bold; }
-.app-link {
-  font-size: 1.8rem;
-  padding-top: 10px; }
-
-.footer {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 10rem 2rem; }
-
-
-/* Media Queries
-************************************************** */
-
 /* Larger than phablet */
-@media (min-width: 550px) {
-  .parallax-window {
-    padding-top: 100px;
-    min-height: 500px; }
+@media (min-width: 920px) {
+  .app-desc {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
