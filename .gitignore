@@ -3,3 +3,5 @@
 .sublime-workspace
 
 sftp-config.json
+.idea/
+node_modules/
