@@ -1,0 +1,20 @@
+{
+  "name": "bruk-skeleton",
+  "version": "1.0.0",
+  "description": "BRUK ==== Dead simple personal portfolio website for myself.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KathrynBrusewitz/bruk-skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KathrynBrusewitz/bruk-skeleton/issues"
+  },
+  "homepage": "https://github.com/KathrynBrusewitz/bruk-skeleton#readme",
+  "dependencies": {}
+}
