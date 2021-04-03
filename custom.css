@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
-
 body {
-    font-family: 'Helvetica Neue', 'Roboto', sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0;
     text-align: center;
@@ -19,7 +17,7 @@ p {
 }
 
 a {
-    color: #00a7ee;
+    color: #008ac6;
     text-decoration: none;
 }
 
